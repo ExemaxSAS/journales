@@ -17,6 +17,12 @@
 
 
             <div class="act_as_row labels">
+                
+                <t t-if="with_auto_sequence">
+                    <div class="act_as_cell first_column" name="entry" style="width: 7.57%;">
+                        Sequence
+                    </div>
+                </t>
                
                 
                 <div class="act_as_cell" name="date" style="width: 5.41%;">Fecha</div>
